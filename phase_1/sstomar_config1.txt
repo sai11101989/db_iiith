@@ -1,0 +1,16 @@
+PAGE_SIZE 200
+NUM_PAGES 256
+PATH_FOR_DATA C:\Users\sai11101989\workspace\DB_Phase1\docs
+BEGIN
+sh_resource
+res_id,int
+res_name,string
+res_loc,string
+primary_key, res_id
+END
+BEGIN
+sh_resource_usage
+res_id,int
+res_usage,int
+res_used_by, string
+END
